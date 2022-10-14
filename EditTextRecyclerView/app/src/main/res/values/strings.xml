@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EditTextRecyclerView</string>
+    <string name="add_todo_title">ADD TODO</string>
+    <string name="clear_todo_title">CLEAR TODO</string>
+    <string name="todo_number">Todo %1$s</string>
+    <string name="todo_title">Title</string>
+</resources>
