@@ -1,5 +1,6 @@
 package com.david.oconte.edittextrecyclerview
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         setUpLayout()
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     private fun setUpLayout() {
         todoList.add(Todo(""))
         binding.todoRecyclerView.layoutManager = LinearLayoutManager(this)
@@ -30,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         binding.todoRecyclerView.adapter = todoAdapter
 
         todoAdapter.setOnTodoDeleteClick(object : TodoUI.TodoListener {
+            @SuppressLint("NotifyDataSetChanged")
             override fun onTodoDeleted(position: Int) {
                 todoList.removeAt(position)
                 todoAdapter.notifyDataSetChanged()

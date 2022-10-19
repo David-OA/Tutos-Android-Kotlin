@@ -12,7 +12,6 @@ import kotlinx.android.synthetic.main.todo_list_layout.view.*
 
 
 class TodoViewHolder(
-
     view: View,
     todoListener: TodoUI.TodoListener,
     todoSaved: TodoUI.TodoSaved
