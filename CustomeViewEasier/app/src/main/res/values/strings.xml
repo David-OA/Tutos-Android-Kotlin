@@ -2,4 +2,6 @@
     <string name="app_name">CustomViewEasier</string>
 
     <string name="defaultString"> No Value</string>
+    <string name="contentdescriptionlogo">contentDescriptionLogo</string>
+    <string name="your_level_is">Your level is</string>
 </resources>

@@ -2,13 +2,11 @@ package com.david.oconte.customvieweasier
 
 import android.content.Context
 import android.graphics.drawable.Drawable
-import android.os.Build
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import androidx.annotation.RequiresApi
 import androidx.appcompat.content.res.AppCompatResources
 
 class UserInfoView @JvmOverloads constructor(
